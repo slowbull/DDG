@@ -14,8 +14,10 @@ Tested stable dependencies:
 
 ## Run
 
-* Run: `python main_split_bk.py ./data/cifar.python --dataset cifar10 --arch resnet_ddg --epochs 300 --learning_rate 0.01 --schedule 150 225 --gammas 0.1 0.1 --batch_size 128 --manualSeed 2 --depth 110 --splits 2
-` 
+* Clone and cd into the repo directory, run: 
+```
+python main_split_bk.py ./data/cifar.python --dataset cifar10 --arch resnet_ddg --epochs 300 --learning_rate 0.01 --schedule 150 225 --gammas 0.1 0.1 --batch_size 128 --manualSeed 2 --depth 110 --splits 2
+``` 
 
 
 ## Result
