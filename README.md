@@ -1,12 +1,11 @@
 ## Introduction
 
-This repository is the PyTorch code for the paper "Decoupled Parallel Backpropagation with Convergence Guarantee" by Zhouyuan Huo, Bin Gu, Qian Yang and Huang, Heng, ICML 2018.
+This repository is the PyTorch code for the paper [Decoupled Parallel Backpropagation with Convergence Guarantee" by Zhouyuan Huo, Bin Gu, Qian Yang and Huang, Heng, ICML 2018.](https://arxiv.org/pdf/1804.10574.pdf)
 
 For any question or suggestions, feel free to contact zhouyuan.huo@pitt.edu
 
 ## Dependencies
 
-Tested stable dependencies:
 * Python 3.6.2 (Anaconda)
 * PyTorch 0.3.1
 * CUDA 8.0
@@ -14,7 +13,7 @@ Tested stable dependencies:
 
 ## Run
 
-* Clone and cd into the repo directory, run: 
+Clone and cd into the repo directory, run: 
 ```
 python main_split_bk.py ./data/cifar.python --dataset cifar10 --arch resnet_ddg --epochs 300 --learning_rate 0.01 --schedule 150 225 --gammas 0.1 0.1 --batch_size 128 --manualSeed 2 --depth 110 --splits 2
 ``` 
@@ -32,7 +31,6 @@ Experimental results for optimizing ResNet110 on CIFAR10 using DDG.
  
 ## Citation 
 
-* Paper link: [https://arxiv.org/pdf/1804.10574.pdf)
 ```latex
 @article{huo2018decoupled,
   title={Decoupled Parallel Backpropagation with Convergence Guarantee},
