@@ -32,11 +32,6 @@ Experimental results for optimizing ResNet110 on CIFAR10 using DDG.
 ## Citation 
 
 ```latex
-
-
-
-
-
 @InProceedings{pmlr-v80-huo18a,
   title = 	 {Decoupled Parallel Backpropagation with Convergence Guarantee},
   author = 	 {Huo, Zhouyuan and Gu, Bin and qian Yang and Huang, Heng},
@@ -50,5 +45,6 @@ Experimental results for optimizing ResNet110 on CIFAR10 using DDG.
   month = 	 {10--15 Jul},
   publisher = 	 {PMLR},
   pdf = 	 {http://proceedings.mlr.press/v80/huo18a/huo18a.pdf},
-  url = 	 {http://proceedings.mlr.press/v80/huo18a.html}}
+  url = 	 {http://proceedings.mlr.press/v80/huo18a.html}
+  }
 ```
