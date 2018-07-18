@@ -32,19 +32,10 @@ Experimental results for optimizing ResNet110 on CIFAR10 using DDG.
 ## Citation 
 
 ```latex
-@InProceedings{pmlr-v80-huo18a,
-  title = 	 {Decoupled Parallel Backpropagation with Convergence Guarantee},
-  author = 	 {Huo, Zhouyuan and Gu, Bin and qian Yang and Huang, Heng},
-  booktitle = 	 {Proceedings of the 35th International Conference on Machine Learning},
-  pages = 	 {2103--2111},
-  year = 	 {2018},
-  editor = 	 {Dy, Jennifer and Krause, Andreas},
-  volume = 	 {80},
-  series = 	 {Proceedings of Machine Learning Research},
-  address = 	 {Stockholmsmässan, Stockholm Sweden},
-  month = 	 {10--15 Jul},
-  publisher = 	 {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v80/huo18a/huo18a.pdf},
-  url = 	 {http://proceedings.mlr.press/v80/huo18a.html}
-  }
+@article{huo2018decoupled,
+  title={Decoupled Parallel Backpropagation with Convergence Guarantee},
+  author={Huo, Zhouyuan and Gu, Bin and Yang, Qian and Huang, Heng},
+  journal={arXiv preprint arXiv:1804.10574},
+  year={2018}
+}
 ```
